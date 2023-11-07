@@ -5,16 +5,16 @@ extern DeviceDriverSet_Motor AppMotor;
 /*运动方向控制序列*/
 enum SmartRobotCarMotionControl
 {
-  Forward,       //(1)
-  Backward,      //(2)
-  Left,          //(3)
-  Right,         //(4)
-  LeftForward,   //(5)
-  LeftBackward,  //(6)
-  RightForward,  //(7)
-  RightBackward, //(8)
-  stop_it        //(9)
-};               //direction方向:（1）、（2）、 （3）、（4）、（5）、（6）
+  Forward,       //(0)
+  Backward,      //(1)
+  Left,          //(2)
+  Right,         //(3)
+  LeftForward,   //(4)
+  LeftBackward,  //(5)
+  RightForward,  //(6)
+  RightBackward, //(7)
+  stop_it        //(8)
+};               //direction
 
 struct Application_xxx
 {
